@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\nvoss\Desktop\a01_nick\q01 Select CMakeLists.txt
