@@ -49,26 +49,12 @@ cmake_ninja_workdir = C$:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/
 
 build cmake_object_order_depends_target_a01_nick: phony || CMakeFiles/a01_nick.dir
 
-build CMakeFiles/a01_nick.dir/q01/List.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/a01_nick/q01/List.cpp || cmake_object_order_depends_target_a01_nick
-  DEP_FILE = CMakeFiles\a01_nick.dir\q01\List.cpp.obj.d
+build CMakeFiles/a01_nick.dir/q04/a01_q4.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/a01_nick/q04/a01_q4.cpp || cmake_object_order_depends_target_a01_nick
+  DEP_FILE = CMakeFiles\a01_nick.dir\q04\a01_q4.cpp.obj.d
   FLAGS = -g -std=gnu++14
   INCLUDES = -IC:/Users/nvoss/Desktop/a01_nick/q01
   OBJECT_DIR = CMakeFiles\a01_nick.dir
-  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q01
-
-build CMakeFiles/a01_nick.dir/q02/List.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/a01_nick/q02/List.cpp || cmake_object_order_depends_target_a01_nick
-  DEP_FILE = CMakeFiles\a01_nick.dir\q02\List.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/nvoss/Desktop/a01_nick/q01
-  OBJECT_DIR = CMakeFiles\a01_nick.dir
-  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q02
-
-build CMakeFiles/a01_nick.dir/q02/a02_q2_app.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/a01_nick/q02/a02_q2_app.cpp || cmake_object_order_depends_target_a01_nick
-  DEP_FILE = CMakeFiles\a01_nick.dir\q02\a02_q2_app.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/nvoss/Desktop/a01_nick/q01
-  OBJECT_DIR = CMakeFiles\a01_nick.dir
-  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q02
+  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q04
 
 
 # =============================================================================
@@ -78,7 +64,7 @@ build CMakeFiles/a01_nick.dir/q02/a02_q2_app.cpp.obj: CXX_COMPILER__a01_nick_Deb
 #############################################
 # Link the executable a01_nick.exe
 
-build a01_nick.exe: CXX_EXECUTABLE_LINKER__a01_nick_Debug CMakeFiles/a01_nick.dir/q01/List.cpp.obj CMakeFiles/a01_nick.dir/q02/List.cpp.obj CMakeFiles/a01_nick.dir/q02/a02_q2_app.cpp.obj
+build a01_nick.exe: CXX_EXECUTABLE_LINKER__a01_nick_Debug CMakeFiles/a01_nick.dir/q04/a01_q4.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\a01_nick.dir

@@ -3,11 +3,18 @@
 #include "List.cpp"
 #include "List.h"
 
+/*
+ * Nick Voss
+ * 1/24/2022
+ * IT279
+ * Assignment 1 part 1
+ */
+
 using namespace std;
 
 template<typename Object>
 
-void printList(List<Object> pList) {
+void printList(const string&, List<Object> pList) {
     typename List<Object>::const_iterator pIter;
 
     for (pIter = pList.begin(); pIter != pList.end(); pIter++) {
@@ -26,15 +33,14 @@ int main() {
         list.push_back(num);
     }
 
-    cout << "The created list is: ";
-    printList(list);
+    printList("The created list is: ", list);
 
     List<int>::iterator theIterator = list.find(list.begin(), list.end(), 7);
     cout << "\nThe found node value: " << *theIterator << endl;
 
     list.erase(list.begin(), theIterator.operator++());
-    cout << "the following node values: ";
-    printList(list);
+
+    printList("the following node values: ", list);
     cout << "\n--------------------------------------------" << endl;
     return 0;
 }
