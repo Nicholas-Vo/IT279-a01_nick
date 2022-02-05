@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target a01_nick
 
@@ -49,12 +49,19 @@ cmake_ninja_workdir = C$:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/
 
 build cmake_object_order_depends_target_a01_nick: phony || CMakeFiles/a01_nick.dir
 
-build CMakeFiles/a01_nick.dir/q04/a01_q4.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/a01_nick/q04/a01_q4.cpp || cmake_object_order_depends_target_a01_nick
-  DEP_FILE = CMakeFiles\a01_nick.dir\q04\a01_q4.cpp.obj.d
+build CMakeFiles/a01_nick.dir/q02/List.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/q02/List.cpp || cmake_object_order_depends_target_a01_nick
+  DEP_FILE = CMakeFiles\a01_nick.dir\q02\List.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/nvoss/Desktop/a01_nick/q01
+  INCLUDES = -IC:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/q01
   OBJECT_DIR = CMakeFiles\a01_nick.dir
-  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q04
+  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q02
+
+build CMakeFiles/a01_nick.dir/q02/a02_q2_app.cpp.obj: CXX_COMPILER__a01_nick_Debug C$:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/q02/a02_q2_app.cpp || cmake_object_order_depends_target_a01_nick
+  DEP_FILE = CMakeFiles\a01_nick.dir\q02\a02_q2_app.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/q01
+  OBJECT_DIR = CMakeFiles\a01_nick.dir
+  OBJECT_FILE_DIR = CMakeFiles\a01_nick.dir\q02
 
 
 # =============================================================================
@@ -64,7 +71,7 @@ build CMakeFiles/a01_nick.dir/q04/a01_q4.cpp.obj: CXX_COMPILER__a01_nick_Debug C
 #############################################
 # Link the executable a01_nick.exe
 
-build a01_nick.exe: CXX_EXECUTABLE_LINKER__a01_nick_Debug CMakeFiles/a01_nick.dir/q04/a01_q4.cpp.obj
+build a01_nick.exe: CXX_EXECUTABLE_LINKER__a01_nick_Debug CMakeFiles/a01_nick.dir/q02/List.cpp.obj CMakeFiles/a01_nick.dir/q02/a02_q2_app.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\a01_nick.dir
@@ -79,7 +86,7 @@ build a01_nick.exe: CXX_EXECUTABLE_LINKER__a01_nick_Debug CMakeFiles/a01_nick.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\nvoss\Desktop\a01_nick\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\nvoss\Desktop\Files\School\IT279\assign01\a01_nick\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +97,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\nvoss\Desktop\a01_nick\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\nvoss\Desktop\a01_nick -BC:\Users\nvoss\Desktop\a01_nick\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\nvoss\Desktop\Files\School\IT279\assign01\a01_nick\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\nvoss\Desktop\Files\School\IT279\assign01\a01_nick -BC:\Users\nvoss\Desktop\Files\School\IT279\assign01\a01_nick\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -108,7 +115,7 @@ build a01_nick: phony a01_nick.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/nvoss/Desktop/a01_nick/cmake-build-debug
+# Folder: C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug
 
 build all: phony a01_nick.exe
 

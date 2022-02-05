@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/nvoss/Desktop/a01_nick
+# Install script for directory: C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

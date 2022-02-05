@@ -34,6 +34,7 @@ List<Object> intersection(const List<Object> &L1, const List<Object> &L2) {
 
 template<typename Object>
 void printList(const string& msg, List<Object> pList) {
+    cout << msg;
     typename List<Object>::const_iterator pIter;
     for (pIter = pList.begin(); pIter != pList.end(); pIter++) {
         cout << *pIter << " ";
@@ -50,15 +51,11 @@ List<Object> listUnion(const List<Object> &L1, const List<Object> &L2) {
     while (iterL1 != L1.end() && iterL2 != L2.end()) {
         if (*iterL1 > *iterL2) {
             theUnion.push_back(*iterL2);
-            theUnion.push_back(*iterL1);
-            *iterL1++;
             *iterL2++;
         }
         if (*iterL1 < *iterL2) {
             theUnion.push_back(*iterL1);
-            theUnion.push_back(*iterL2);
             *iterL1++;
-            *iterL2++;
         } else {
             theUnion.push_back(*iterL1);
             *iterL1++;

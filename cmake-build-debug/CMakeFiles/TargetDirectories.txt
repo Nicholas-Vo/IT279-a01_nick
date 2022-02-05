@@ -1,3 +1,3 @@
-C:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/CMakeFiles/a01_nick.dir
-C:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/nvoss/Desktop/a01_nick/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug/CMakeFiles/a01_nick.dir
+C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/nvoss/Desktop/Files/School/IT279/assign01/a01_nick/cmake-build-debug/CMakeFiles/rebuild_cache.dir
